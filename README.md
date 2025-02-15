@@ -8,8 +8,13 @@ N Mosfet(nmos4,pmos4 ),Resistor(22k),voltage supply(1.8V,0.9V) and connecting wi
 Mostfet is one of the most important compontent in electronics .
 This importance is due to the fact of its compact design , low power consumption ,simple geometry and compatibilty in VLSI technology.
 There are three different configurations in which the mosfet can be connected (namely common drain,gate and source) the most popular being common source and common drain configurations.
-The Mosfet acts as an amplifier in the saturation region of operation where Vgs > Vth,Vgd < Vth and Vds>=Vov for an N channel mosfet.In the common source configuration there is a 180 degree phase shift 
-between input and output. There is very high input impedance (Ig=0) ideally infinite.The drain curret 
+The Mosfet acts as an amplifier in the saturation region of operation where Vgs > Vth,Vgd < Vth and Vds>=Vov for an N channel mosfet.
+
+In the common source configuration there is a 180 degree phase shift 
+between input and output. 
+
+There is very high input impedance (Ig=0) ideally infinite.
+The drain curret 
 
 **I= 1/2*kn*(Vov)^2**; **Vov=Vgs-Vth & kn=W/L*un*Cox** for lambda = 0.
 
@@ -20,7 +25,9 @@ Transient Analysis is done to anlalise the response of the amplifier to the time
 AC Analysis is done to evaluate the gain of the amplifier which is **-gm*Rd**;gm is transconductance of the amplifier.
 # Procedure:
 1.Create a new folder and name it as project file.Save the LT spice file in this folder.
+
 2.Name the mosfet as CMOSN and the length as 180nm and width as 3um initially.
+
 3.For the pmos name it as CMOSP and set the length as 180nm and width as 3um respectively
 
 4.**DC Analysis:** Set up the circuit as per the circuit diagram with proper connections ensuring valid circuit for further analysis.
@@ -85,7 +92,9 @@ There is 180 degree phase shift between input and output or the DC level shift.
 ![image](https://github.com/user-attachments/assets/6781c492-a8bb-4e7a-9dba-b45579f2770a)
 Gain=-20dB
 
-# Inference
+# Inference:
+1. Current is directly Propotional to the Width of the Mosfet and the cirrent varies with the change in width
+2. 
 
 
 
