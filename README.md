@@ -34,7 +34,7 @@ Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 **AC Analysis:** Go to spice directive and give the library file path for the simulator to access the data through the path . Go to simulate option in the tab , edit simulation command , click on AC analysis 
 and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
 # Circuit 1:
-https://github.com/user-attachments/assets/e0297ecf-3329-4f45-aadf-87610bc1164f
+![Image](https://github.com/user-attachments/assets/91f5eeff-ac7d-46ad-a605-490589fa519b)
 # Calculation :
 Power = 100uW
 
