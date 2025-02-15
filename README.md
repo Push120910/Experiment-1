@@ -97,7 +97,7 @@ There is 180 degree phase shift between input and output or the DC level shift.
 3.**AC Analysis:**
 ![image](https://github.com/user-attachments/assets/6781c492-a8bb-4e7a-9dba-b45579f2770a)
 Gain=-20dB
-
+# Circuit 2 :
 # Inference:
 1. Current is directly Propotional to the Width of the Mosfet and the current varies with the change in width.
 
