@@ -3,7 +3,7 @@
 To do the DC analysis,Transient and AC analysis of a CS amplifier circuit and 
 extract the various parameters associated using LT Spice.
 ## Components required: 
-N Mosfet(nmos4 ,pmos4 ), Resistor(22k), voltage supply(1.8V,0.9V) and connecting wires.
+Mosfet(nmos4 ,pmos4 ), Resistor(22k), voltage supply(1.8V,0.9V) and connecting wires.
 ## Theory:
 Mostfet is one of the most important compontent in electronics .
 
@@ -16,7 +16,7 @@ _There is very high input impedance (Ig=0) ideally infinite._
 
 The drain current
 
-**I<sub>d<\sub> = 1/2 k<sub>n</sub> V<sub>ov</sub><sup>2</sup>** ; **V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub>** and **k<sub>n</sub>=u<sub>n</sub> C<sub>ox<\sub> W/L**
+**I<sub>d</sub> = 1/2 k<sub>n</sub> V<sub>ov</sub><sup>2</sup>** ; **V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub>** and **k<sub>n</sub>=u<sub>n</sub> C<sub>ox</sub> W/L**
 
 Output is taken from the drain end rather than simply across the resistor to maintain the common ground referance.
 ### DC Analysis:
@@ -117,7 +117,7 @@ Also helps in understanding the frequency response and small signal behaviour of
 A Diode connected mosfet transistor always is in saturation and acts as a constant current source and acts as a amplifier. 
 The different type of analysis are DC Analysis, AC Analysis and Transient analysis.
 The drain current obtained is given by the formula \
-**I<sub>d<\sub> = 1/2 k<sub>n</sub> V<sub>ov</sub><sup>2</sup>** ; **V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub>** and **k<sub>n</sub>=u<sub>n</sub> C<sub>ox<\sub> W/L**
+**I<sub>d</sub> = 1/2 k<sub>n</sub> V<sub>ov</sub><sup>2</sup>** ; **V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub>** and **k<sub>n</sub>=u<sub>n</sub> C<sub>ox</sub> W/L**
 ### DC Analysis:
 This is done ensure the mosfet operates in saturation and to calculate the DC operationg point of the transistor. This prevents signal distortion .\
 This helps in the determination of the biasing resistors.\
@@ -177,11 +177,11 @@ V<sub>ds</sub> = V<sub>out</sub>
 ## Simulation Result:
 ## DC Analysis:
 ![WhatsApp Image 2025-02-16 at 21 12 10_7dd3f2e3](https://github.com/user-attachments/assets/8bb96d59-07f2-4f64-b09b-d610669932b6)
-DC Operating Point =( 1.658,55.55uA)
+DC Operating Point =( 1.658V ,55.55uA)
 
 ## Transient Analysis:
 ![image](https://github.com/user-attachments/assets/c99d66f3-b809-4b46-8e7d-789f029092b0)
-There is 180 degree phase shift between input and output and a DC level phase shift obseved.\
+There is 180 degree phase shift between input and output and a DC level phase shift observed.\
 Vout=1.658V and the width =2um.
 
 ## AC Analysis:
