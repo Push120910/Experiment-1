@@ -3,7 +3,7 @@
 To do the DC analysis,Transient and AC analysis of a CS amplifier circuit and 
 extract the various parameters associated using LT Spice.
 ## Components required: 
-N Mosfet(nmos4,pmos4 ),Resistor(22k),voltage supply(1.8V,0.9V) and connecting wires.
+N Mosfet(nmos4 ,pmos4 ), Resistor(22k), voltage supply(1.8V,0.9V) and connecting wires.
 ## Theory:
 Mostfet is one of the most important compontent in electronics .
 
@@ -73,15 +73,10 @@ Q point is (0.543,55.55uA)
 ## Tabular Column :
 
 |Width |  Current(Id) |  Vout |
-
+|:----:|  :---------: |  :--: |
 |1um   |  74.2uA      | 0.122 |
-
 |0.8um |  72.7uA      | 0.155 |
-
 |0.7um |  71.65uA     | 0.18  |
-
-|0.5um |  67.2uA      | 0.27  |
-
 |0.3um |  55.55uA     | 0.543 | 
 ## Results:
 1.**DC Analysis:**
@@ -107,7 +102,15 @@ Gain=-20dB
 
 3. Q point stability is attained in saturation region thus helping in attaining linear amplification .
 
-4. The Mosfet gain is increased in mid band frequency range |(small signal analysis).
+4. The Mosfet gain is increased in mid band frequency range (small signal analysis).
+
+5. The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.\
+This is essential in high speed applications.
+
+6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.\
+Also helps in understanding the frequency response and small signal behaviour of the circuit.
+
+
 
 ## Circuit 2:
 ## Theory : 
@@ -145,3 +148,62 @@ Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 
 6.**AC Analysis:** Go to spice directive and give the library file path for the simulator to access the data through the path . Go to simulate option in the tab , edit simulation command , click on AC analysis 
 and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T).
+
+## Circuit Diagram:
+![WhatsApp Image 2025-02-16 at 21 12 31_3d3788be](https://github.com/user-attachments/assets/1b0938c3-01c4-41c0-a73b-961a3534631c)
+
+## Calculation:
+Power = 100mW
+
+P = V*I ; ( V= 1.8 V)\
+That implies I<sub>d</sub> = 55.55uA
+
+V <sub>out/sub> = 1.658 V
+
+Length= 180nm
+
+Width=2um
+
+V<sub>ds</sub> = V<sub>out</sub>
+## Tabular Column:
+
+|Width |  Current(Id) |  Vout |
+|:----:|  :---------: |  :--: |
+|1.0um   |  22.72uA   |  1.65 |
+|1.2um |  32.66uA     | 1.658 |
+|1.5um |  40.83uA     | 1.658 |
+|2.0um |  55.55uA     | 1.658 | 
+
+## Simulation Result:
+## DC Analysis:
+![WhatsApp Image 2025-02-16 at 21 12 10_7dd3f2e3](https://github.com/user-attachments/assets/8bb96d59-07f2-4f64-b09b-d610669932b6)
+DC Operating Point =( 1.658,55.55uA)
+
+## Transient Analysis:
+![image](https://github.com/user-attachments/assets/c99d66f3-b809-4b46-8e7d-789f029092b0)
+There is 180 degree phase shift between input and output and a DC level phase shift obseved.\
+Vout=1.658V and the width =2um.
+
+## AC Analysis:
+![WhatsApp Image 2025-02-16 at 21 10 48_6afd8526](https://github.com/user-attachments/assets/27dfa3cc-eb30-4397-a6e2-a6d3686a3447)
+Gain = -0.95 dB
+
+## Inference:
+1.The Current I<sub>d</sub> is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
+
+2.DC Analysis ensures proper biasing and hence the mosfet operates in saturation and Q point stability is attained.
+
+3.The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.\
+This is essential in high speed applications.
+
+4.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.\
+Also helps in understanding the frequency response and small signal behaviour of the circuit.
+
+5.Together all the analysis helps in designing and opyimising an amplifier.
+
+
+
+
+
+
+
