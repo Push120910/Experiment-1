@@ -187,14 +187,14 @@ Vout=1.658V and the width =2um.
 ## AC Analysis:
 ![WhatsApp Image 2025-02-16 at 21 10 48_6afd8526](https://github.com/user-attachments/assets/27dfa3cc-eb30-4397-a6e2-a6d3686a3447)
 Gain = -0.95 dB
-## Conmbined Analysis:
+## Combined Analysis:
 |Parameters | Circuit 1 | Circuit 2 |
 |:---------:| :-------: | :-------: |
 | Current I<sub>d</sub>     |  55.55uA  | 55.55uA     |
 | length   |  180nm  | 0.3um     |
 |Width    |  180nm | 2um    |
-|Gain      |  2dB  |      | 
-|Vout    | 0.543|
+|Gain      |  2dB  |   0.6dB   | 
+|Vout    | 0.543| 1.658|
 |Gain Equation| -g<sub>m</sub> R<sub>d</sub>| -g<sub>m</sub> (ro parallel ro)|
 ## Inference:
 1.The Current I<sub>d</sub> is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
