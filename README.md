@@ -93,7 +93,7 @@ There is 180 degree phase shift between input and output or the DC level shift.
 
 3.**AC Analysis:**
 ![image](https://github.com/user-attachments/assets/6781c492-a8bb-4e7a-9dba-b45579f2770a)
-Gain=-20dB
+Gain= 2dB
 
 ## Inference:
 1. Current is directly Propotional to the Width of the Mosfet and the current varies with the change in width.
@@ -187,7 +187,15 @@ Vout=1.658V and the width =2um.
 ## AC Analysis:
 ![WhatsApp Image 2025-02-16 at 21 10 48_6afd8526](https://github.com/user-attachments/assets/27dfa3cc-eb30-4397-a6e2-a6d3686a3447)
 Gain = -0.95 dB
-
+## Conmbined Analysis:
+|Parameters | Circuit 1 | Circuit 2 |
+|:---------:| :-------: | :-------: |
+| Current I<sub>d</sub>     |  55.55uA  | 55.55uA     |
+| length   |  180nm  | 0.3um     |
+|Width    |  180nm | 2um    |
+|Gain      |  2dB  |      | 
+|Vout    | 0.543|
+|Gain Equation| -g<sub>m</sub> R<sub>d</sub>| -g<sub>m</sub> (ro parallel ro)|
 ## Inference:
 1.The Current I<sub>d</sub> is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
 
