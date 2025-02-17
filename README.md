@@ -186,14 +186,14 @@ Vout=1.658V and the width =2um.
 
 ## AC Analysis:
 ![WhatsApp Image 2025-02-17 at 22 01 45_84c440bc](https://github.com/user-attachments/assets/1cb023d3-bed8-46b3-bc75-86a8e29fdd40)
-Gain = 0.95 dB
+Gain = 0.95dB
 ## Combined Analysis:
 |Parameters | Circuit 1 | Circuit 2 |
 |:---------:| :-------: | :-------: |
 | Current I<sub>d</sub>     |  55.55uA  | 55.55uA     |
 | length   |  180nm  | 0.3um     |
 |Width    |  180nm | 2um    |
-|Gain      |  2dB  |   0.6dB   | 
+|Gain      |  2dB  |   0.95dB   | 
 |Vout    | 0.543| 1.658|
 |Gain Equation| -g<sub>m</sub> R<sub>d</sub>| -g<sub>m</sub> (ro parallel ro)|
 ## Inference:
