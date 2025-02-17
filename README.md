@@ -185,8 +185,8 @@ There is 180 degree phase shift between input and output and a DC level phase sh
 Vout=1.658V and the width =2um.
 
 ## AC Analysis:
-![WhatsApp Image 2025-02-16 at 21 10 48_6afd8526](https://github.com/user-attachments/assets/27dfa3cc-eb30-4397-a6e2-a6d3686a3447)
-Gain = -0.95 dB
+![WhatsApp Image 2025-02-17 at 22 01 45_84c440bc](https://github.com/user-attachments/assets/1cb023d3-bed8-46b3-bc75-86a8e29fdd40)
+Gain = 0.95 dB
 ## Combined Analysis:
 |Parameters | Circuit 1 | Circuit 2 |
 |:---------:| :-------: | :-------: |
