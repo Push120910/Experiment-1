@@ -150,7 +150,7 @@ Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T).
 
 ## Circuit Diagram:
-![WhatsApp Image 2025-02-16 at 21 12 31_3d3788be](https://github.com/user-attachments/assets/1b0938c3-01c4-41c0-a73b-961a3534631c)
+![{9DCA44BA-BD93-4E2C-A92D-CC6C7A418A12}](https://github.com/user-attachments/assets/84b9e40a-90c2-4d39-bf1c-6d39f74f59b1)
 
 ## Calculation:
 Power = 100mW
@@ -162,17 +162,17 @@ V <sub>out/sub> = 1.658 V
 
 Length= 180nm
 
-Width=2um
+Width=0.9um
 
 V<sub>ds</sub> = V<sub>out</sub>
 ## Tabular Column:
 
 |Width |  Current(Id) |  Vout |
 |:----:|  :---------: |  :--: |
-|1.0um   |  22.72uA   |  1.65 |
-|1.2um |  32.66uA     | 1.658 |
-|1.5um |  40.83uA     | 1.658 |
-|2.0um |  55.55uA     | 1.658 | 
+|1.3um   |  75.25uA   |  1.65 |
+|1.2um |  70.01uA     | 1.658 |
+|1.0um |  61.23uA     | 1.658 |
+|0.9um |  55.55uA     | 1.658 | 
 
 ## Simulation Result:
 ## DC Analysis:
@@ -192,7 +192,7 @@ Gain = 0.95dB
 |:---------:| :-------: | :-------: |
 | Current I<sub>d</sub>     |  55.55uA  | 55.55uA     |
 | length   |  180nm  | 0.3um     |
-|Width    |  180nm | 2um    |
+|Width    |  180nm | 0.9um    |
 |Gain      |  2dB  |   0.95dB   | 
 |Vout    | 0.543| 1.658|
 |Gain Equation| -g<sub>m</sub> R<sub>d</sub>| -g<sub>m</sub> (ro parallel ro)|
