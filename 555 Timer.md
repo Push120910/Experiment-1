@@ -34,9 +34,9 @@ The output of the 555 timer stays LOW until a negative trigger pulse is applied 
 
 The output pulse width is determined by the formula:
 
-\[
-T = 1.1 \times R \times C
-\]
+
+T = 1.1* R * C
+
 
 Where:
 - T = Output pulse width (seconds)
@@ -142,16 +142,6 @@ This circuit has several practical applications:
 ## 11. Conclusion
 
 The 555 timer IC was successfully used to build a monostable multivibrator that produces a consistent pulse of 0.5 ms duration. The experiment demonstrated the theoretical working of the IC and verified it through simulation, confirming that output duration is governed by the RC time constant. This setup can be readily adapted for a wide range of practical timing and pulse-control applications.
-
----
-
-## 12. References
-
-- NE555 Timer Datasheet – Texas Instruments
-- The Art of Electronics – Horowitz & Hill
-- https://www.electronics-tutorials.ws
-- https://www.allaboutcircuits.com
-- Lab simulation in LTspice/Proteus
 
 
 
