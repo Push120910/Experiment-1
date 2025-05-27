@@ -202,6 +202,11 @@ This composite signal is applied to the trigger input of the 555 timer, ensuring
 R = T / (1.1 × C)
 = 0.0005 / (1.1 × 0.1 × 10⁻⁶)
 = 4545.45 Ω ≈ 4.545 kΩ
+![WhatsApp Image 2025-05-26 at 23 37 12_c2dfbd74](https://github.com/user-attachments/assets/a1362892-ee34-4b3b-b89f-6bf9b4483a32)
+
+![WhatsApp Image 2025-05-26 at 23 37 15_e664723e](https://github.com/user-attachments/assets/a49aaa68-e136-4056-ac05-88ae7b0f623c)
+
+![WhatsApp Image 2025-05-26 at 23 37 13_75feb206](https://github.com/user-attachments/assets/8a284179-3ce6-4249-9ed6-88b2836c0858)
 
 ---
 
@@ -245,6 +250,7 @@ Fig: Output 1: Is the output of astable multivibrator \
 ## Case 2:(Ton = 0.1mS & Toff =0.05mS)
 ![image](https://github.com/user-attachments/assets/e98cb274-22b7-453a-bc79-42e043b5d983)
 
+Fig: (i) shows the output of astable multivibrator which is a square wave followed by (ii) where differentiator circuit converts it to square wave , (iii) where clipper circuit clips out the negative edge of the signals leaving behind positive edges and (iv) which is the output of monostable multivibrator.
 ## Case 3:(Ton = 1mS & Toff =4mS)
 ![image](https://github.com/user-attachments/assets/a2bb9179-d7ea-454a-a8ce-4e429c411be3)
 Fig: Since Toff > Tin , i.e discharching time is greater than the charging time , inverter configuration is used to invert the  output pulse wave.
