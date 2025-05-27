@@ -54,6 +54,7 @@ Where:
 ### **5. Voltage Mode vs Current Mode**
 
 **Voltage Mode**: Both inputs are active. The OTA responds to voltage difference.
+
 ![{CF946276-C5B8-4840-A17C-C21F98765F54}](https://github.com/user-attachments/assets/a59b3df6-3c3f-46cd-95de-b7b0d8c8d5a4)
 
 **Current Mode**: One input (V_in−) grounded. High-speed performance with better linearity due to simpler signal path. Enhances performance in low-voltage designs.
